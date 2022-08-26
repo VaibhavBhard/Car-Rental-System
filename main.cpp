@@ -120,7 +120,7 @@ system("CLS");
      }
 
    else {
-      if(decide=="no")
+      if(decide=="yes")
       {
       	system("CLS");
           continue ;
