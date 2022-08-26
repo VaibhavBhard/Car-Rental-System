@@ -33,7 +33,7 @@ using namespace std;
  Lessee lessee ;
 
  //First output
-   void Minu ()
+   void Menu ()
  {
 
 
@@ -104,7 +104,7 @@ int main()
      cout<<"\t\t\t----------------------------------------------\n";
      while(decide!="exit")
      {
-         Minu();
+         Menu();
      cout<<"\n\n\n\t\t\tYour Choice: ";
      int theChoice ;
      cin>>theChoice ;
