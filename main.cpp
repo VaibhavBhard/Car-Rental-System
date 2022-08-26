@@ -21,7 +21,7 @@ using namespace std;
 
    };
 
-   struct Lessee {
+   struct UserDetail {
 
    string Name [10];
    string Natio_ID [10] ;
@@ -30,7 +30,7 @@ using namespace std;
 
    //Declaring struct
  Cars car ;
- Lessee lessee ;
+  UserDetail UserDetail;
 
  //First output
    void Menu ()
@@ -61,11 +61,11 @@ using namespace std;
 
 
   }
-   //check lessee credit
+   //check user credit
 
    void check (int j )
   {
-      if(lessee.payment_acc[j]  >= car.price[j])
+      if(UserDetail.payment_acc[j]  >= car.price[j])
            cout<<"\n\n\n\t\t\tProcess has been done successfully!! " <<endl;
            else
               cout<<"\n\n\n\t\t\tNot Available " <<endl;
@@ -81,11 +81,11 @@ using namespace std;
        cout<<"\t\t\t----------------------------------------\n\n";
        cout<<"\n\tNOTE: PROVIDE FIRST NAME ONLY, DONOT ENTER SPACE WHILE PROVIDING NAME,\n\tPAYMENT WON'T PROCEED IF THE GIVEN AMOUNT IS LESS THEN THE RATE OF CAR\n\n\n\n";
        cout<<"\t\t\tEnter Your Name : ";
-       cin>>lessee.Name[j];
+       cin>>UserDetail.Name[j];
        cout<<"\t\t\tEnter Your National ID : ";
-       cin>>lessee.Natio_ID[j] ;
+       cin>>UserDetail.Natio_ID[j] ;
        cout<<"\t\t\tPayment Amount: " ;
-       cin>>lessee.payment_acc[j] ;
+       cin>>UserDetail.payment_acc[j] ;
 
 
      check( j ) ;
