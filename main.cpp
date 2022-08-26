@@ -128,7 +128,7 @@ system("CLS");
      else if  (decide=="exit")
      {
     	system("CLS");
-     	cout<<"\n\n\n\t\t\tBrought To You By code-projects.org";
+     	cout<<"\n\n\n\t\t\tBrought To You By Vaibhav Bhardwaj ";
 
          break ;
      }
